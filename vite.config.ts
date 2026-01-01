@@ -52,6 +52,8 @@
     build: {
       target: 'esnext',
       outDir: 'build',
+      // ensures assets load correctly on Vercel
+      base: './
     },
     server: {
       port: 3000,
